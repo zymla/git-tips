@@ -1,5 +1,11 @@
 # git-tips
 
+# Credentials
+```
+git config --global user.email "user@domain"
+git config --global user.name "First NAME"
+git config --global credential.helper store
+```
 # Change token
 ```
 git config --local --unset remote.origin.url
